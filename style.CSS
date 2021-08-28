@@ -1,0 +1,78 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    color:"white";
+    background: linear-gradient(to right, rgb(48, 93, 216) , rgb(189, 235, 232));
+    font-family: 'Bebas Neue', cursive;
+    transition : all 1s ease;
+}
+.location, 
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature {
+    flex-direction: column;
+}
+.degree-section {
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+    transition : all 0.5s ease;
+}
+.degree-section span {
+    margin:10px;
+    font-size: 50px;
+}
+.degree-section h2 {
+ font-size: 60px;
+}
+.temperature-description {
+    font-size: 40px;
+    transition : all 0.5s ease;
+
+}
+
+.location img {
+    height:150px;
+    width:150px;
+    display: inline-block;
+}
+.location .location-timezone {
+    font-size:50px;
+    transition : all 0.5s ease;
+}
+.location-timezone:hover,
+.date-time:hover,
+.degree-section:hover,
+.temperature-description:hover
+{
+    color:red;
+}
+.date-time {
+    font-size:45px;
+    transition : all 0.5s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
