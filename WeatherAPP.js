@@ -24,6 +24,7 @@ window.addEventListener("load", () => {
         }
         getTime.textContent = hour + " : " + minute + " : " + second ;
     }
+    //
     setInterval(getCurrentTime,1000)
     //WINDOW LOAD TIME
     getCurrentTime();

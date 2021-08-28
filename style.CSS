@@ -14,6 +14,7 @@ body {
     font-family: 'Bebas Neue', cursive;
     transition : all 1s ease;
 }
+
 .location, 
 .temperature {
     height: 30vh;
